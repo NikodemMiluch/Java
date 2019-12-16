@@ -1,4 +1,4 @@
-import java.util.sca;
+import java.util.Scanner;
 
 class CzyParzysta {
   public static void main(String[] args) {
