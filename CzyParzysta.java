@@ -1,6 +1,6 @@
 import java.util.sca;
 
-class Main {
+class CzyParzysta {
   public static void main(String[] args) {
 
 
