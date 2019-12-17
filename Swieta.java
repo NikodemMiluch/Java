@@ -11,10 +11,10 @@ class Swieta
         if(x.equals("Tak"))
         {
         System.out.println("╔═════════════════════════════════════════════════════════════════╗");
-        System.out.println("║	_[_]_	   ┌─────────────────────────┐      _[_]_	  ║");
-        System.out.println("║       (**)       │  Wszystkiego Najlepszego|	     (**)         ║");
-        System.out.println("║   `--( : )--'    │	Z okazji	     │    `--( : )--'    ║");
-        System.out.println("║     (  :  )      │ Świąt Bożego Narodzienia│      (  :  ) 	  ║");
+        System.out.println("║	  _[_]_	   ┌─────────────────────────┐      _[_]_	  ║");
+        System.out.println("║      (**)    │  Wszystkiego Najlepszego|	     (**)         ║");
+        System.out.println("║  `--( : )--' │	Z okazji	         │    `--( : )--'    ║");
+        System.out.println("║    (  :  )      │ Świąt Bożego Narodzienia│      (  :  ) 	  ║");
         System.out.println("║   		   └─────────────────────────┘       		  ║");
         System.out.println("╚═════════════════════════════════════════════════════════════════╝");
         }
