@@ -23,6 +23,7 @@ class Swieta
             System.out.println("to nie");
         }
         
+        scanner.close();
     }
 
 }

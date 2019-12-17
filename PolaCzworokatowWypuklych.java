@@ -4,7 +4,7 @@ import java.lang.Math;
 class PolaCzworokatowWypuklych
 {
     public static void main(final String[] args) {
-        
+        /* test */
         double a;/* bok */
         double b; /* bok */
         double h; /* wysokość */
@@ -86,6 +86,6 @@ class PolaCzworokatowWypuklych
             System.out.println("Źle napisałeś nazwę czworokąta!");
         }
 
-
+        scanner.close();
     }
 }
