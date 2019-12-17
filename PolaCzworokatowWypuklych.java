@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.lang.Math;
 
-class Main
+class PolaCzworokatowWypuklych
 {
     public static void main(final String[] args) {
         
