@@ -8,20 +8,20 @@ class Main
         double a;/* bok */
         double b; /* bok */
         double h; /* wysokość */
-        int x; /* wybrany czworokąt */
+        String x; /* wybrany czworokąt */
         Scanner scanner = new Scanner(System.in);
         System.out.println("Witaj w programie wyliczającym pola czworokątów wypukłych.");
         System.out.println("Lista wszystkich czworokątów wypukłych: Kwadrat(wpisz 1), Prostokąt(2), Trójkąt(3), Równoległobok(4), Romb(5), Trapez(6), Deltoid(7), Koło(8)");
         System.out.println("Wybierz czworkąt żeby wyliczyć jego pole: ");
-        x = scanner.nextInt(); /* scanner.next() to dla string */
+        x = scanner.next(); /* scanner.next() to dla string */
     
-        if(x==1)
+        if(x.equals("Kwadrat"))
         {
             System.out.println("Podaj długość boku kwadratu(musi być liczbą naturalną):");
             a = scanner.nextDouble();
             System.out.println(a * a);
         }
-        else if(x==2)
+        else if(x.equals("Prostokąt"))
         {
             System.out.println("Podaj długość jednego boku prostokąta(musi być liczbą naturalną):");
             a = scanner.nextDouble();
@@ -30,7 +30,7 @@ class Main
             System.out.println(a * b);
 
         }
-        else if(x==3)
+        else if(x.equals("Trójkąt"))
         {
             System.out.println("Podaj długość podstawy trójkąta(musi być liczbą naturalną):");
             a = scanner.nextDouble();
@@ -38,7 +38,7 @@ class Main
             h = scanner.nextDouble();
             System.out.println(1/2.0 * a * h);
         }
-        else if(x==4)
+        else if(x.equals("Równoległobok"))
         {
             System.out.println("Podaj długość boku równoległoboku(musi być liczbą naturalną):");
             a = scanner.nextDouble();
@@ -47,7 +47,7 @@ class Main
             System.out.println(a * h);
 
         }
-        else if(x==5)
+        else if(x.equals("Romb"))
         {
             System.out.println("Podaj długość boku rombu(musi być liczbą naturalną):");
             a = scanner.nextDouble();
@@ -56,7 +56,7 @@ class Main
             System.out.println(a * h);
 
         }
-        else if(x==6)
+        else if(x.equals("Trapez"))
         {
             System.out.println("Podaj długość jednej podstawy trapezu(musi być liczbą naturalną):");
             a = scanner.nextDouble();
@@ -67,7 +67,7 @@ class Main
             System.out.println(((a+b)*h)/2);
 
         }
-        else if(x==7)
+        else if(x.equals("Deltoid"))
         {
             System.out.println("Podaj długość jednaj z przekątnych deltoidu(musi być liczbą naturalną):");
             a = scanner.nextDouble();
@@ -75,11 +75,11 @@ class Main
             b = scanner.nextDouble();    
             System.out.println((a*b)/2);
         }
-        else if(x==8)
+        else if(x.equals("Koło"))
         {
           System.out.println("Podaj promień koła:");
           a = scanner.nextDouble();
-          System.out.println(a * a * 3.14);
+          System.out.println(a * a * Math.PI);
         }
         else
         {
