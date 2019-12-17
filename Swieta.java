@@ -3,12 +3,12 @@ class Swieta
 {
     public static void main(String[] args) 
     {
-       /* String a;
+        String x;
         Scanner scanner = new Scanner(System.in);
         System.out.println("Chcesz zobaczyć kartkę świąteczną: ");
-        a = scanner.next();
+        x = scanner.next();
         
-        if(result=="tak")*/
+        if(x.equals("Tak"))
         {
         System.out.println("╔═════════════════════════════════════════════════════════════════╗");
         System.out.println("║	_[_]_	   ┌─────────────────────────┐      _[_]_	  ║");
@@ -18,11 +18,11 @@ class Swieta
         System.out.println("║   		   └─────────────────────────┘       		  ║");
         System.out.println("╚═════════════════════════════════════════════════════════════════╝");
         }
-     /*   else if (result=="nie")
+        else 
         {
             System.out.println("to nie");
         }
-        */
+        
     }
 
 }
