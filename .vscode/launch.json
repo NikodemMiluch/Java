@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Trojkaty",
+            "request": "launch",
+            "mainClass": "Trojkaty",
+            "projectName": "Nauka_3f0db031"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Trójkąty",
+            "request": "launch",
+            "mainClass": "Trójkąty",
+            "projectName": "Nauka_3f0db031"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Swieta",
             "request": "launch",
             "mainClass": "Swieta"
