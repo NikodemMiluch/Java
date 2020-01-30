@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - PolaCzworokatowWypuklych",
+            "request": "launch",
+            "mainClass": "PolaCzworokatowWypuklych",
+            "projectName": "Nauka_3f0db031"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Trojkaty",
             "request": "launch",
             "mainClass": "Trojkaty",

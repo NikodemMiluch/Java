@@ -11,7 +11,7 @@ class PolaCzworokatowWypuklych
         String x; /* wybrany czworokąt */
         Scanner scanner = new Scanner(System.in);
         System.out.println("Witaj w programie wyliczającym pola czworokątów wypukłych.");
-        System.out.println("Lista wszystkich czworokątów wypukłych: Kwadrat(wpisz 1), Prostokąt(2), Trójkąt(3), Równoległobok(4), Romb(5), Trapez(6), Deltoid(7), Koło(8)");
+        System.out.println("Lista wszystkich czworokątów wypukłych: Kwadrat, Prostokąt, Trójkąt, Równoległobok, Romb, Trapez, Deltoid, Koło");
         System.out.println("Wybierz czworkąt żeby wyliczyć jego pole: ");
         x = scanner.next(); /* scanner.next() to dla string */
     
