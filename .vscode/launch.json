@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Silnia",
+            "request": "launch",
+            "mainClass": "Silnia",
+            "projectName": "Nauka_1686cbac"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ciagfibonacciego",
+            "request": "launch",
+            "mainClass": "Ciagfibonacciego",
+            "projectName": "Nauka_1686cbac"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - PolaCzworokatowWypuklych",
             "request": "launch",
             "mainClass": "PolaCzworokatowWypuklych",
