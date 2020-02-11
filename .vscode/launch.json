@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - CzyPierwsza",
+            "request": "launch",
+            "mainClass": "CzyPierwsza",
+            "projectName": "Nauka_3f0db031"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Nauka_3f0db031"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Silnia",
             "request": "launch",
             "mainClass": "Silnia",
