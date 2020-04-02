@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Jasio",
+            "request": "launch",
+            "mainClass": "Jasio",
+            "projectName": "Nauka_1686cbac"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - CzyPierwsza",
             "request": "launch",
             "mainClass": "CzyPierwsza",
