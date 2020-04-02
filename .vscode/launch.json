@@ -2,10 +2,17 @@
     "configurations": [
         {
             "type": "java",
+<<<<<<< HEAD
             "name": "CodeLens (Launch) - Jasio",
             "request": "launch",
             "mainClass": "Jasio",
             "projectName": "Nauka_1686cbac"
+=======
+            "name": "CodeLens (Launch) - Tabele",
+            "request": "launch",
+            "mainClass": "Tabele",
+            "projectName": "Nauka_3f0db031"
+>>>>>>> afc2d56ab734912b4f0d56d285244b112b153330
         },
         {
             "type": "java",
