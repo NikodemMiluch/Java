@@ -2,9 +2,23 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - CzyPierwsza",
+            "request": "launch",
+            "mainClass": "CzyPierwsza",
+            "projectName": "Nauka_1686cbac"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Cool",
+            "request": "launch",
+            "mainClass": "Cool",
+            "projectName": "Nauka_1686cbac"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Jasio",
             "request": "launch",
-            "mainClass": "Jasio",
+            "mainClass": "Jasio"
         },
         {
             "type": "java",
