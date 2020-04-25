@@ -1,8 +1,12 @@
 import java.util.*;
-class Cool {
+class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String x = sc.nextLine();
+        x = x.replaceAll("k", "|<");
+        x = x.replaceAll("K", "|<");
+        x = x.replaceAll("p", "|)");
+        x = x.replaceAll("P", "|)");
         x = x.replaceAll("l", "1");
         x = x.replaceAll("L", "1");
         x = x.replaceAll("i", "1");
@@ -17,7 +21,7 @@ class Cool {
         x = x.replaceAll("S", "5");
         x = x.replaceAll("z", "7");
         x = x.replaceAll("Z", "7");
-        x = x.replaceAll("o", "0");
+        x = x.replaceAll("O", "0");
         x = x.replaceAll("o", "0");
         x = x.replaceAll("c", "(");
         x = x.replaceAll("C", "(");
