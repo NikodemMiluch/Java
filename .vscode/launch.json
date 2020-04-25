@@ -13,6 +13,13 @@
             "request": "launch",
             "mainClass": "ptest",
             "projectName": "Nauka_1686cbac"
+        }
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Cool",
+            "request": "launch",
+            "mainClass": "Cool",
+            "projectName": "Nauka_3f0db031"
         },
         {
             "type": "java",
