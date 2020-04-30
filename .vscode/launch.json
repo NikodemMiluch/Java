@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - kx",
+            "request": "launch",
+            "mainClass": "kx",
+            "projectName": "Nauka_1686cbac"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - sNewtona",
+            "request": "launch",
+            "mainClass": "sNewtona",
+            "projectName": "Nauka_1686cbac"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Main",
             "request": "launch",
             "mainClass": "Main",
@@ -13,7 +27,7 @@
             "request": "launch",
             "mainClass": "ptest",
             "projectName": "Nauka_1686cbac"
-        }
+        },
         {
             "type": "java",
             "name": "CodeLens (Launch) - Cool",
