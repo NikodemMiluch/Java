@@ -3,9 +3,6 @@ class telewidz {
    static public Scanner sc = new Scanner(System.in);
    public static int q = sc.nextInt();
    public static String t[][] = new String[q][3];
-
-    System.out.println(knajwcz + 1);
-   }
    public static void kasowanie(int a)
    {
     for(int i = 0;i<a;i++)

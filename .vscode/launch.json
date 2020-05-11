@@ -2,10 +2,17 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "Nauka_3f0db031"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - telewidz",
             "request": "launch",
             "mainClass": "telewidz",
-            "projectName": "Nauka_1686cbac"
+            "projectName": "Nauka_3f0db031"
         },
         {
             "type": "java",
