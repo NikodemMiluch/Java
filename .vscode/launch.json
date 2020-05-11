@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - telewidz",
+            "request": "launch",
+            "mainClass": "telewidz",
+            "projectName": "Nauka_1686cbac"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - kx",
             "request": "launch",
             "mainClass": "kx",

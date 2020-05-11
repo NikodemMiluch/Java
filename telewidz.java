@@ -1,35 +1,47 @@
 import java.util.*;
-class kx {
+class telewidz {
    static public Scanner sc = new Scanner(System.in);
    public static int q = sc.nextInt();
    public static String t[][] = new String[q][3];
+
+    System.out.println(knajwcz + 1);
+   }
    public static void kasowanie(int a)
    {
     for(int i = 0;i<a;i++)
     {
-        if((t[i][0] == t[i+1][0]) || (t[i][1] == t[i+1][1]))
+        for(int j = hhmm2min(t[i][0]); j<hhmm2min(t[i][1]); j++)
         {
-          if(hhmm2min(t[i][1]) > hhmm2min(t[i+1][1]))
-          {
-            t[i+1][0] = "0";
-            t[i+1][1] = "0";
-            t[i+1][2] = "0";
-          }
-          else
-          {
-            t[i][0]="0";
-            t[i][1]="0";
-            t[i][2]="0";
-          }
+            if(j == hhmm2min(t[i+1][0]))
+            {
+                if(hhmm2min(t[i+1][1]) < hhmm2min(t[i][1]))
+                {
+                    t[i][0] = "0";
+                    t[i][1] = "0";
+                    t[i][2] = "0";
+                }
+                else if (hhmm2min(t[i+1][1]) == hhmm2min(t[i][1]))
+                {
+                    t[i+1][0] = "0";
+                    t[i+1][1] = "0";
+                    t[i+1][2] = "0";
+                }
+                else
+                {
+                    t[i+1][0] = "0";
+                    t[i+1][1] = "0";
+                    t[i+1][2] = "0";
+                }
+            }
         }
     }
    }
-    public static int hhmm2min(String x){
-        int h1 = (x.charAt(0) - 48) * 10 + (x.charAt(1) - 48);
-        h1 *= 60;
-        h1 += (x.charAt(3) - 48) * 10 + (x.charAt(4)-48);
-        return h1;
-    }
+     public static int hhmm2min(String x){
+          int h1 = (x.charAt(0) - 48) * 10 + (x.charAt(1) - 48);
+          h1 *= 60;
+          h1 += (x.charAt(3) - 48) * 10 + (x.charAt(4)-48);
+          return h1;
+      }
     public static String min2hhmm(int min)
     {
         int h = min/60;
@@ -48,7 +60,7 @@ class kx {
       t[i][0] = x;
       String y = sc.next();//czas trwania
       t[i][2] = y;
-      String z = min2hhmm(hhmm2min(x)+hhmm2min(y));
+      String z = min2hhmm(hhmm2min(x)+hhmm2min(y));//zakończenie
       t[i][1] = z;
     }
     //użycie taktyki a
