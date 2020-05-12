@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - TrickKarty",
+            "request": "launch",
+            "mainClass": "TrickKarty",
+            "projectName": "Nauka_3f0db031"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Test",
             "request": "launch",
             "mainClass": "Test",
@@ -51,20 +58,6 @@
         },
         {
             "type": "java",
-            "name": "CodeLens (Launch) - CzyPierwsza",
-            "request": "launch",
-            "mainClass": "CzyPierwsza",
-            "projectName": "Nauka_1686cbac"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Cool",
-            "request": "launch",
-            "mainClass": "Cool",
-            "projectName": "Nauka_1686cbac"
-        },
-        {
-            "type": "java",
             "name": "CodeLens (Launch) - Jasio",
             "request": "launch",
             "mainClass": "Jasio"
@@ -109,13 +102,6 @@
             "name": "CodeLens (Launch) - Trojkaty",
             "request": "launch",
             "mainClass": "Trojkaty",
-            "projectName": "Nauka_3f0db031"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Trójkąty",
-            "request": "launch",
-            "mainClass": "Trójkąty",
             "projectName": "Nauka_3f0db031"
         },
         {

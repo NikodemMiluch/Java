@@ -1,6 +1,5 @@
-
 import java.util.*;
-class Test
+class Zaddod2tablice
 {
   public static int f(int a[], int b[])
   {
