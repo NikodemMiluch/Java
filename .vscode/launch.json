@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Pierwiastek",
+            "request": "launch",
+            "mainClass": "Pierwiastek",
+            "projectName": "Nauka_1686cbac"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Palindormy",
+            "request": "launch",
+            "mainClass": "Palindormy",
+            "projectName": "Nauka_1686cbac"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NWW",
+            "request": "launch",
+            "mainClass": "NWW",
+            "projectName": "Nauka_1686cbac"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - telewidz",
             "request": "launch",
             "mainClass": "telewidz",
