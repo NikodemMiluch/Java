@@ -2,6 +2,7 @@
     "configurations": [
         {
             "type": "java",
+<<<<<<< HEAD
             "name": "CodeLens (Launch) - Pierwiastek",
             "request": "launch",
             "mainClass": "Pierwiastek",
@@ -20,13 +21,26 @@
             "request": "launch",
             "mainClass": "NWW",
             "projectName": "Nauka_1686cbac"
+=======
+            "name": "CodeLens (Launch) - TrickKarty",
+            "request": "launch",
+            "mainClass": "TrickKarty",
+            "projectName": "Nauka_3f0db031"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "Nauka_3f0db031"
+>>>>>>> eec9dea801f59f5db13aebf51532c9d346d3428c
         },
         {
             "type": "java",
             "name": "CodeLens (Launch) - telewidz",
             "request": "launch",
             "mainClass": "telewidz",
-            "projectName": "Nauka_1686cbac"
+            "projectName": "Nauka_3f0db031"
         },
         {
             "type": "java",
@@ -62,20 +76,6 @@
             "request": "launch",
             "mainClass": "Cool",
             "projectName": "Nauka_3f0db031"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - CzyPierwsza",
-            "request": "launch",
-            "mainClass": "CzyPierwsza",
-            "projectName": "Nauka_1686cbac"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Cool",
-            "request": "launch",
-            "mainClass": "Cool",
-            "projectName": "Nauka_1686cbac"
         },
         {
             "type": "java",
@@ -123,13 +123,6 @@
             "name": "CodeLens (Launch) - Trojkaty",
             "request": "launch",
             "mainClass": "Trojkaty",
-            "projectName": "Nauka_3f0db031"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Trójkąty",
-            "request": "launch",
-            "mainClass": "Trójkąty",
             "projectName": "Nauka_3f0db031"
         },
         {
