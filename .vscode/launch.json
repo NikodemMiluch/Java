@@ -2,7 +2,13 @@
     "configurations": [
         {
             "type": "java",
-<<<<<<< HEAD
+            "name": "CodeLens (Launch) - Tamagotchi",
+            "request": "launch",
+            "mainClass": "Tamagotchi",
+            "projectName": "Nauka_1686cbac"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Pierwiastek",
             "request": "launch",
             "mainClass": "Pierwiastek",
@@ -21,19 +27,6 @@
             "request": "launch",
             "mainClass": "NWW",
             "projectName": "Nauka_1686cbac"
-=======
-            "name": "CodeLens (Launch) - TrickKarty",
-            "request": "launch",
-            "mainClass": "TrickKarty",
-            "projectName": "Nauka_3f0db031"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Test",
-            "request": "launch",
-            "mainClass": "Test",
-            "projectName": "Nauka_3f0db031"
->>>>>>> eec9dea801f59f5db13aebf51532c9d346d3428c
         },
         {
             "type": "java",
