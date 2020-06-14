@@ -137,17 +137,17 @@ class Tamagotchi
             int odp = sc.nextInt();
             if(odp == 1)
             {
-              File file = new File("Wynik.txt");
+              File f = new File("Wynik.txt");
               System.out.println("Wyniki innych graczy: ");
-              Scanner o = new Scanner(file);
+              Scanner o = new Scanner(f);
               while(o.hasNextLine())
               {
                 System.out.println(o.nextLine());
               }
               System.out.println("Jak chcesz się nazywać w tablicy wyników");
               String q = sc.next();
-              FileWriter writer = new FileWriter(file, true);
-              PrintWriter z = new PrintWriter(writer);
+              FileWriter w = new FileWriter(f, true);
+              PrintWriter z = new PrintWriter(w);
               z.println(q + ": Głod:" + a + " Szczescie:" + b + " Zdrowotnosc:" + c + " Pieniadze:" + d);
               z.close();
               o.close();

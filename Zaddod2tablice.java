@@ -8,7 +8,7 @@ class Zaddod2tablice
     int p = a[0];
     for(int i = 0;i<a.length;i++)
      {
-      if(a[i] < p)
+      if(a[i] < p)        
        {
          p = a[i];
        }
@@ -47,5 +47,6 @@ class Zaddod2tablice
       b[i] = sc.nextInt();
     }
     System.out.println(f(a,b));
+    sc.close();
   }
 }

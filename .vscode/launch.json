@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Tamagotchi",
+            "request": "launch",
+            "mainClass": "Tamagotchi",
+            "projectName": "Nauka_3f0db031"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Tabele",
             "request": "launch",
             "mainClass": "Tabele",
