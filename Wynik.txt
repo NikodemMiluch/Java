@@ -1,3 +1,1 @@
 Nikodem: Głod:1000 Szczescie:1000 Zdrowotnosc:1000 Pieniadze:1000
-krasnal: Głod:-1 Szczescie:3 Zdrowotnosc:1 Pieniadze:1
-nikodem: Głod:2 Szczescie:3 Zdrowotnosc:0 Pieniadze:2
