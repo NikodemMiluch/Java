@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 Nikodem: Głod:1000 Szczescie:1000 Zdrowotnosc:1000 Pieniadze:1000
+=======
+nikis: Głod:-19 Szczescie:21 Zdrowotnosc:1 Pieniadze:1
+niodem: Głod:-19 Szczescie:21 Zdrowotnosc:1 Pieniadze:1
+>>>>>>> 3332742d1dee3423485567d31978e52eaaee17c8
