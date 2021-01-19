@@ -2,17 +2,10 @@
     "configurations": [
         {
             "type": "java",
-<<<<<<< HEAD
             "name": "CodeLens (Launch) - paulina",
             "request": "launch",
             "mainClass": "paulina",
             "projectName": "Java_8d1b4dee"
-=======
-            "name": "CodeLens (Launch) - Tamagotchi",
-            "request": "launch",
-            "mainClass": "Tamagotchi",
-            "projectName": "Nauka_3f0db031"
->>>>>>> 3332742d1dee3423485567d31978e52eaaee17c8
         },
         {
             "type": "java",

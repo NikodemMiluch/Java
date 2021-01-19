@@ -1,5 +1,5 @@
 import java.util.*;
-class paulina
+class Main
 {
     public static void main(String args[])
     {
@@ -236,7 +236,6 @@ class paulina
             System.out.println("Napojenie: " + napojenie);
             System.out.println("Zdrowie Psychiczne: " + zdrowiepsych);
             System.out.println("Rozrywka: " + rozrywka);
-            System.out.println(i);
         }
         System.out.println("Mineło 20 dni. Cieszę się, że wspólnie spędziliśmy ten czas! Sprawdźmy twój wynik: ");
         System.out.println("Szczęście: " + szczescie);
